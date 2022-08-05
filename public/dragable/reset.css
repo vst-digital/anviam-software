@@ -1,0 +1,46 @@
+/* stolen from: http://meyerweb.com/eric/tools/css/reset/
+   quote: "If you want to use my reset styles, then feel free!
+           It's all explicitly in the public domain"
+ */
+
+/* v1.0 | 20080212 */
+
+
+/**
+body {
+    line-height: 1;
+}
+**/
+/*ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}*/
+
+/* remember to define focus styles! */
+/*:focus {
+    outline: 0;
+}*/
+
+/* remember to highlight inserts somehow! */
+/*ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}*/
+
+/* tables still need 'cellspacing="0"' in the markup */
+/*table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}*/
+table#table1 {
+    font-size: 15px;
+}

@@ -1,0 +1,1254 @@
+html,
+body {
+    min-height: 100%;
+    padding: 0 !important;
+}   
+
+div#loader {
+    text-align: center;
+}
+
+body,
+div,
+form,
+input,
+select,
+textarea,
+label,
+p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    z-index: 2;
+    line-height: 83px;
+}
+
+textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+}
+
+#w3review {
+    width: 100%;
+}
+
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+select.nav.ProjectsCss {
+    border: none;
+    font-size: 16px;
+}
+
+.dropzone .dz-preview.dz-image-preview .dz-details {
+    padding: 1em 1em;
+}
+
+.dropzone .dz-preview.dz-image-preview {
+    width: auto;
+}
+
+.dropzone .dz-preview {
+    width: auto;
+}
+
+.dropzone .dz-preview .dz-details .dz-size,
+.dropzone .dz-preview .dz-details .dz-filename:not(:hover) {
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 8px #669999;
+}
+
+.projectcss a.dropdown-toggle {
+    color: #cecece !important;
+}
+
+.banner {
+    position: relative;
+    height: 300px;
+    background-image: url("/uploads/media/default/0001/02/8070c999efd1a155ad843379a5508d16f544aeaf.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.float-right {
+    margin: 13px 23px 0;
+    float: right;
+}
+
+.float-right nav {
+    padding: 0px 0 29px;
+    margin-top: 0 !important;
+}
+
+.img_pdf {
+    width: 30% !important;
+    text-align: center;
+    float: left !important;
+}
+
+.banner::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+input,
+select,
+textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+input[type="date"] {
+    padding: 4px 5px;
+}
+
+textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+}
+
+.item:hover p,
+.item:hover i,
+.question:hover p,
+.question label:hover,
+input:hover::placeholder {
+    color: #669999;
+}
+
+.item input:hover,
+.item select:hover,
+.item textarea:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 3px 0 #669999;
+    color: #669999;
+}
+
+.item {
+    position: relative;
+    margin: 10px 0;
+}
+
+.item span {
+    color: red;
+}
+
+.week {
+    display: flex;
+    justfiy-content: space-between;
+}
+
+.colums {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.colums div {
+    width: 48%;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.item i,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    font-size: 20px;
+    color: #a3c2c2;
+}
+
+.item i {
+    right: 1%;
+    top: 30px;
+    z-index: 1;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    display: none;
+}
+
+label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+}
+
+.question span {
+    margin-left: 30px;
+}
+
+.question-answer label {
+    display: block;
+}
+
+label.radio:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+input[type=radio]:checked+label:before,
+label.radio:hover:before {
+    border: 2px solid #669999;
+}
+
+label.radio:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 8px;
+    height: 4px;
+    border: 3px solid #669999;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+}
+
+input[type=radio]:checked+label:after {
+    opacity: 1;
+}
+
+.flax {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-block {
+    margin-top: 10px;
+    /*text-align: center;*/
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #669999;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a3c2c2;
+}
+
+.chat-row {
+    margin: 50px;
+}
+
+.chat-user-list {
+    list-style: none;
+}
+
+.popuproleform {
+    box-shadow: none;
+    background: transparent;
+}
+
+.name-image {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 50%;
+    font-weight: bold;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chat-image,
+.chat-name {
+    display: list-item;
+}
+
+.list-chat-mod .chat-image,
+.chat-name {
+    display: inline-block;
+}
+
+.chat-header .chat-image,
+.chat-name {
+    display: inline-block;
+}
+
+.file_Css {
+    margin: 2px 0 0 0px !important;
+}
+
+p.file_Css a {
+    color: #435f7a;
+    font-size: 12px;
+}
+
+.delete_img {
+    background: red;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: none;
+}
+
+.chat-user-list {
+    margin-bottom: 2px;
+    padding: 5px;
+    height: 50px;
+}
+
+.chat-user-list.active {
+    background: #cbc7c7;
+}
+
+.list-chat-item {
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+.list-chat-item li {
+    padding: 5px;
+    margin: 10px;
+}
+
+.user-status-icon {
+    position: absolute;
+    top: 22px;
+    left: 28px;
+    color: grey;
+}
+
+.chat-image {
+    position: relative;
+}
+
+.chat-header {
+    min-height: 60px;
+    padding: 10px;
+    margin-bottom: 2px;
+    background: #ffffff
+}
+
+.chat-body {
+    height: calc(100vh - 375px);
+    background: #ffffff;
+    padding: 30px 50px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: auto;
+}
+
+.message-text {
+    margin-left: 45px;
+    margin-top: -10px;
+}
+
+.chat-input {
+    border: 1px solid #838383;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 10px;
+}
+
+.list-chat {
+    width: 100%;
+}
+
+.list-chat-mod {
+    padding: 0;
+    overflow: scroll;
+    float: left;
+    height: 80vh;
+}
+
+.list-chat-mod li {
+    padding: 10px;
+    margin: 15px 0 15px 0px;
+}
+
+.list-chat-mod li.active a {
+    background-color: transparent !important;
+}
+
+.list-chat-mod li.active {
+    background: #cbc7c7 !important;
+    border-radius: 15px;
+}
+
+.list-chat-mod .chat-image {
+    margin: -4px 0 0;
+}
+
+.list-chat .chat-user-list {
+    float: left;
+    width: 100%;
+}
+
+.list-chat-mod li a {
+    float: left;
+    width: 100%;
+}
+
+.chat-input-toolbar {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 8px 10px;
+}
+
+.customwidthheight {
+    height: 250px;
+    width: 250px;
+}
+
+.customwidthheights1 {
+    width: 150px;
+}
+
+.checkboxcls {
+    display: block !important;
+    width: auto;
+    float: left;
+    padding: 10px !important;
+    margin: 5px !important;
+}
+
+.columnlabel .col-sm-2 {
+    width: 15%;
+}
+
+.attach_tag label {
+    padding: 0px;
+}
+
+.checkboxlabelcls {
+    margin: 2px;
+}
+
+.chat-input-toolbar .tool-items {
+    margin-right: 5px;
+}
+
+.searchforms form {
+    background: transparent;
+    box-shadow: none;
+}
+
+.message-listing .message-content {
+    padding: 10px;
+}
+
+.project .item span {
+    color: #999;
+}
+
+.customselectwidth span {
+    width: 100% !important;
+}
+
+.customselectwidth b {
+    left: 97% !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    width: auto;
+}
+
+@media (min-width: 568px) {
+    .name-item,
+    .city-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .name-item input,
+    .name-item div {
+        width: calc(50% - 20px);
+    }
+    .name-item div input {
+        width: 97%;
+    }
+    .name-item div label {
+        display: block;
+        padding-bottom: 5px;
+    }
+}
+
+
+/*--------------------company--------------------*/
+
+.btn_form {
+    padding: 3.5% 1%;
+}
+
+button.btn.btn-primary.float-right {
+    float: right;
+    margin: 0 2px;
+}
+
+.item select {
+    width: 98%;
+    padding: 7px 5px;
+}
+
+#cover-spin {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#cover-spin::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    border-top-color: transparent;
+    border-width: 4px;
+    border-radius: 50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.searchforms form {
+    padding: 0;
+}
+
+footer {
+    z-index: 99;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    font-weight: 400;
+}
+
+#user_thread .threads,
+#user_thread .reply_thread {
+    padding: 15px 0;
+    border-top: 1px solid #dfdfdf;
+}
+
+#user_thread .threads {
+    cursor: pointer;
+    display: none;
+}
+
+#user_thread .threads p,
+#user_thread .colums.project .item p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#user_thread .threads .item,
+#user_thread .reply_thread .item,
+#user_thread .colums.project .item {
+    display: none;
+}
+
+#user_thread .threads.active p,
+#user_thread .colums.project.active .item p {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#user_thread .threads.active .item,
+#user_thread .reply_thread.active .item,
+#user_thread .colums.project .item.company_memo,
+#user_thread .colums.project.active .item {
+    display: block;
+}
+
+#user_thread .item.col-md-12 {
+    width: 100%;
+}
+
+#user_thread .item.attach_tag img {
+    width: 100px;
+    height: auto;
+}
+
+div#paint_img img {
+    width: 400px !important;
+    border: 1px solid #a5a1a1;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.paintToll .wPaint-menu-holder.wPaint-menu-name-main {
+    display: inline-flex !important;
+}
+
+#user_thread .colums.project {
+    cursor: pointer;
+}
+
+#user_thread .show_all {
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    height: 33px;
+}
+
+.show_all {
+    padding: 4px 45px;
+}
+
+#user_thread .show_all p {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    background: #d9d9d9;
+    text-align: center;
+    line-height: 30px;
+    font-size: 21px;
+    z-index: 9;
+    border-radius: 50%;
+    color: #000;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#user_thread .show_all:hover p {
+    opacity: 1;
+}
+
+.colums.project .item .bootstrap-datetimepicker-widget {
+    width: auto !important;
+}
+
+.storage_list {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.storage_list .thumb {
+    padding-left: 0;
+}
+
+.storage_list a.thumbnail {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.storage_list a.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*form#myAwesomeForm {
+    padding: 0;
+}*/
+
+.paintImg_css {
+    padding: 0 15px;
+}
+
+.range input[type="range"] {
+    padding: 15px 0;
+    width: 98%;
+}
+
+.selection span.select2-selection.select2-selection--multiple {
+    width: 100% !important;
+}
+
+
+/*=========================  Loader css ================================ */
+
+.btn_form {
+    padding: 3.5% 1%;
+}
+
+button.btn.btn-primary.float-right {
+    float: right;
+    margin: 0 2px;
+}
+
+
+/* --- overlay spinner --- */
+
+
+/* Absolute Center Spinner */
+
+.overlay-spinner {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Transparent Overlay */
+
+.overlay-spinner:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* :not(:required) hides these rules from IE9 and below */
+
+.overlay-spinner:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.overlay-spinner:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/************ New Css Chat Section***************/
+
+/*div#appendimage img {
+    width: 23% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}*/
+div#appendimage img {
+    width: 23% !important;
+    height: auto !important;
+    object-fit: cover !important;
+}
+
+div#appendimage {
+    width: 100%;
+    float: right;
+    position: absolute !important;
+    bottom: 7%;
+    background: #f5f5f5;
+    padding: 10
+px
+;
+}
+
+.recording_btn .fa {
+    font-size: 33px;
+    color: #000;
+}
+
+button.navbar-toggle {
+    display: block !important;
+    /*border: 1px solid #000 !important;*/
+    /*background: #000;*/
+    width: 45px;
+}
+
+button.navbar-toggle span {
+    border: 1px solid #000;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff !important;
+}
+
+
+/*********** Recording Tooltip CSS*************/
+
+.record_btns .tool-tip {
+    position: relative !important;
+    display: inline-block !important;
+}
+
+.record_btns .tool-tip .tooltiptext {
+    visibility: hidden !important;
+    width: 64px !important;
+    background-color: black !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-radius: 6px !important;
+    padding: 5px 0 !important;
+    /* Position the tooltip */
+    position: absolute !important;
+    z-index: 1 !important;
+    bottom: 100% !important;
+    left: 100% !important;
+    margin-left: -60px !important;
+}
+
+.record_btns .tool-tip:hover .tooltiptext {
+    visibility: visible !important;
+}
+
+li.groupli {
+    width: 48%;
+    float: left;
+    margin-right: 10px !important;
+    text-transform: capitalize;
+    font-size: 17px !important;
+    padding: 10px 14px !important;
+}
+
+.groupusersli li {
+    width: 48%;
+    float: left;
+    margin-right: 10px !important;
+    text-transform: capitalize;
+    font-size: 17px !important;
+    padding: 10px 14px !important;
+}
+
+label#group_label {
+    text-transform: capitalize;
+}
+
+button.addgroup:focus {
+    outline: none !important;
+    background: #337ab7;
+    color: #fff !important;
+}
+
+button.btn.btn-light.btn-sm.btn-file-upload.tool-items.upload_chatfile:focus {
+    background: #337ab7;
+    color: #fff;
+    outline: none;
+}
+
+.chat-name.font-weight-bold {
+    text-transform: capitalize;
+}
+
+button:focus {
+    outline: none;
+    background: #366fac !important;
+}
+
+.btn.btn-success.btn-lg.pull-right.addgroup-btncss {
+    color: #fff;
+    margin: 10px 0;
+    background: #366fac !important;
+    border: none;
+}
+
+.page-header small {
+    text-transform: capitalize;
+}
+
+#messageWrapper .sent a {
+    color: #fff;
+}
+
+footer a {
+    color: #4ac8f4;
+}
+
+.cke_path {
+    display: none;
+}
+
+table.table.table-striped.table-bordered p {
+    word-break: break-all;
+}
+
+li.select2-folder-dw-result-9q49-addnew {
+    background: #2e848c !important;
+    border-radius: 22px !important;
+    width: 100px !important;
+    text-align: center !important;
+    margin: 0px 5px 10px !important;
+}
+
+
+/************File Manager Start CSS******************/
+
+#fm-main-block .fm-navbar .btn-group {
+    margin-right: 0;
+    display: flex;
+    float: left;
+}
+
+#fm-main-block .fm-navbar .btn {
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+#fm-main-block .fm-navbar button {
+    width: 45px;
+}
+
+#fm-main-block .fm-navbar .text-right {
+    width: 19% !important;
+    text-align: right !important;
+    float: right !important;
+}
+
+#fm-main-block .fm-navbar.mb-3 {
+    width: 99%;
+    margin: 0 0 0 13px;
+}
+
+#fm-main-block .fm-body {
+    margin: 10px 0 0 0 !important;
+}
+
+.fm-modal button.close {
+    width: 5%;
+    margin: -30px -14px 0 0px !important;
+}
+
+.fm-body {
+    height: auto !important;
+    min-height: auto;
+}
+
+.justify-content-between.fm-info-block {
+    margin: 0 0;
+}
+
+
+/************File Manager End CSS******************/
+
+.groupname {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.groupli p {
+    font-size: 11px;
+    padding: 0 14px !important;
+    margin: -10px 34px 0;
+}
+
+.table-info {
+    background: #f8f9fa;
+}
+
+
+/*********** File Manager CSS Start ******************/
+
+#fm-main-block .fm-navbar .btn-group {
+    margin-right: 0;
+    display: flex;
+    float: left;
+}
+
+#fm-main-block .fm-navbar .btn {
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+#fm-main-block .fm-navbar button {
+    width: 45px;
+}
+
+#fm-main-block .fm-navbar .text-right {
+    width: 15% !important;
+    text-align: right !important;
+    float: right !important;
+}
+
+#fm-main-block .fm-navbar.mb-3 {
+    width: 99%;
+    margin: 0 0 0 13px;
+}
+
+#fm-main-block .fm-body {
+    margin: 10px 0 0 0 !important;
+}
+
+
+/* Model */
+
+.popup-overlay {
+    /*Hides pop-up when there is no "active" class*/
+    visibility: hidden;
+    position: absolute;
+    background: #f7f7f7;
+    border: 3px solid #666666;
+    width: 80%;
+    height: 50%;
+    left: 0%;
+    z-index: 999;
+    border-radius: 15px;
+    box-shadow: 0px 3px 18px #000;
+}
+
+.popup-overlay.active {
+    /*displays pop-up when "active" class is present*/
+    visibility: visible;
+    text-align: center;
+}
+
+.popup-content {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+}
+
+.popup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility: visible;
+}
+
+.file-popup button {
+    width: 33px;
+}
+
+
+/* .poupbtn {
+        display: none !important;
+    }*/
+
+.table-info {
+    background: #cfcfcf;
+}
+
+
+/*********** File Manager CSS End ******************/
+
+#addEvent button.close {
+    width: 3%;
+    padding: 0 4px;
+}
+
+.fm {
+    height: auto !important;
+}
+
+.newuser-css input[type=checkbox] {
+    display: block;
+    width: 3%;
+    float: left;
+}
+
+.newuser-css label {
+    float: left;
+    margin-right: 16px;
+    font-weight: 500;
+}
+
+p.permissions-css {
+    width: 100%;
+}
+
+p.item.newuser-css {
+    width: 100%;
+}
+
+.fm-modal .modal-body {
+    padding: 7px 30px 24px;
+}
+
+.fm-body {
+    min-height: 464px !important;
+}
+
+/****Calender Icon Css ******/
+.caledndericon input {
+    z-index: 1;
+    position: absolute;
+    background: none;
+}
+.caledndericon .fa-calendar {
+    margin: -24px 14px 0 0px;
+    z-index: 0;
+    position: absolute;
+}
+.caledndericon {
+    margin-bottom: 50px;
+}
+.fm-additions-cropper button {
+    width: 125px;
+}
+@media only screen and (max-width: 992px) {
+    .list-chat-mod {
+        height: auto;
+    }
+}
